@@ -1,3 +1,6 @@
+# Automatic Generation of Database Applications in Node.js
+
+Bachelor's thesis project for generating database-driven CRUD and statistics web applications from MySQL/MariaDB database schemas using Node.js.
 # Szakdolgozat – MySQL/MariaDB SQL → generált CRUD + statisztika alkalmazás
 
 Ez a projekt egy **SQL-alapú kódgenerátor**. Egy MySQL/MariaDB adatbázisscriptből előállít egy működő, generikus CRUD alkalmazást:

@@ -18,6 +18,30 @@ Node.js, Express.js, Sequelize, MySQL/MariaDB, Vite, Vanilla JavaScript, CSS, Ch
 - Statistics and aggregation endpoints
 - Support for multiple MySQL/MariaDB test databases
 
+## Architecture
+
+SQL file → schema parser → schema.json → generated backend → metadata-driven frontend
+
+## Quick Start
+
+1. Install dependencies
+2. Import a MySQL/MariaDB test database
+3. Configure `.env`
+4. Generate schema
+5. Generate backend
+6. Start backend and frontend
+
+## Project Status
+
+Bachelor's thesis project. The application demonstrates automatic generation of CRUD and statistics functionality from relational database schemas.
+
+## Limitations and Future Improvements
+
+- Authentication and authorization are not included.
+- The generated UI is generic and metadata-based.
+- Advanced validation rules could be extended.
+- Deployment support could be added later.
+
 # Szakdolgozati projekt: adatbázis-alapú CRUD és statisztikai alkalmazások automatikus generálása MySQL/MariaDB sémákból Node.js környezetben.
 
 Ez a projekt egy **SQL-alapú kódgenerátor**. Egy MySQL/MariaDB adatbázisscriptből előállít egy működő, generikus CRUD alkalmazást:

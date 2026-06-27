@@ -1,9 +1,24 @@
 # Automatic Generation of Database Applications in Node.js
 
-Bachelor's thesis project for generating database-driven CRUD and statistics web applications from MySQL/MariaDB database schemas using Node.js.
-# Adatbázis-alapú alkalmazások automatikus generálása Node.js környezetben
+Bachelor's thesis project that automatically generates database-driven CRUD and statistics web applications from MySQL/MariaDB schemas using Node.js.
 
-Szakdolgozati projekt: adatbázis-alapú CRUD és statisztikai alkalmazások automatikus generálása MySQL/MariaDB sémákból Node.js környezetben.
+The system parses SQL database scripts, extracts schema metadata, generates an Express + Sequelize backend API, and provides a metadata-driven frontend for table views, forms and statistics.
+
+## Tech Stack
+
+Node.js, Express.js, Sequelize, MySQL/MariaDB, Vite, Vanilla JavaScript, CSS, Chart.js
+
+## Main Features
+
+- SQL schema parsing
+- Automatic schema.json generation
+- Generated REST API endpoints
+- CRUD operations for database tables
+- Metadata-based frontend rendering
+- Statistics and aggregation endpoints
+- Support for multiple MySQL/MariaDB test databases
+
+# Szakdolgozati projekt: adatbázis-alapú CRUD és statisztikai alkalmazások automatikus generálása MySQL/MariaDB sémákból Node.js környezetben.
 
 Ez a projekt egy **SQL-alapú kódgenerátor**. Egy MySQL/MariaDB adatbázisscriptből előállít egy működő, generikus CRUD alkalmazást:
 
